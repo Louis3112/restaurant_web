@@ -4,148 +4,224 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Depot Accord</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    
 </head>
 
 <body>
-    <header class="navbar">
-        <img src="image/logo.png" alt="Logo" width="150px">
-        <nav class="list">
-            <ul>
+    <header id="navbar" class="flex items-center justify-start p-4 shadow-lg rounded-b-lg">
+        <img src="assets/img/logo.png" alt="Logo" style="width: 150px;">
+        <nav class="flex items-center">
+            <ul class="flex mt-4">
                 <li><a href="#fried-foods">FRIED FOODS</a></li>
                 <li><a href="#non-fried-foods">NON FRIED FOODS</a></li>
                 <li><a href="#about-us">ABOUT US</a></li>
             </ul>
         </nav>
+        <button type="submit">ORDER</button>
     </header>
-
     <main>
-        <div class="opening">
+        <div id="opening" class="flex items-center mb-5 rounded-xl">
             <div class="desc">
-                <h1 class="title">DEPOT ACCORD</h1>
-                <p>If you are looking for authentic Chinese food in town and craving a homemade dish to satisfy your taste buds, <b>DEPOT ACCORD</b> is the perfect answer. </p>
+                <h1 id="title">DEPOT ACCORD</h1>
+                <p>If you are looking for authentic Chinese food in town and craving a homemade dish to satisfy your taste buds, <b>DEPOT ACCORD</b> is the perfect answer. </p> <br>
                 <p>Offering a variety of traditional Chinese dishes made with fresh ingredients and time-honored recipes, every bite brings a taste of home-cooked goodness.</p>
             </div>
-            <div class="img">
-                <img src="image/img_opening.jpg" alt="Image Opening">
+            <div id="opening-img">
+                <img src="assets/img/img-opening.jpg" alt="Opening Image" style="border-radius: 5%;">
             </div>
         </div>
 
-        <div class="fried-foods">
-            <div class="fried-rice">
-                <img src="image/fried-rice.jpg" alt="Fried Rice" width="500px">
-                <h3>Fried Rice (<i>Nasi Goreng</i>)</h3>
-                <h5>Rp 20.000</h5>
-                <p>Stir-frying cooked rice with a combination of fresh ingredients such as eggs, and savory proteins of chicken, shrimp, or salted fish. </p>
-                <p>Seasoned with deep flavors of soy sauce, garlic, sesame oil, every bite delivers the perfect balance of savory and umami goodness.</p>
+        <h1 id="fried-foods" class="font-[750] text-[30px] ml-[10px] ">FRIED FOODS</h1>
+        <div class="grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 rounded-xl" id="menu">
+            <div id="fried-rice" class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="assets/img/fried-foods/fried-rice.jpg" alt="Fried Rice" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
+                <h3 class="text-center">Fried Rice <i>(Nasi Goreng)</i></h3>
+                <h5 class="text-center">Rp 20.000</h5>
+                <p class="text-sm text-justify mt-2">Stir-frying cooked rice with a combination of fresh ingredients such as eggs, and savory proteins of chicken, shrimp, or salted fish. </p>
+                
+                <br>
+                <div class="flex justify-center">
+                    <input type="number" placeholder="How many" class="rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2">
+                </div>
             </div>
 
-            <div class="fried-noodle">
-                <img src="image/fried-noodle.jpg" alt="Fried Noodle" width="500px">
-                <h3>Fried Noodle (<i>Mie Goreng</i>)</h3>
-                <h5>Rp 20.000</h5>
-                <p>Stir-frying wheat noodles with a mix of fresh vegetables, and proteins from fluffy eggs, tender chicken, succulent shrimp. </p>
-                <p>Cooked over high heat, the noodles absorb the rich flavors of soy sauce, garlic, and sesame oil, creating a perfect balance of smoky, umami, and slightly sweet tastes.</p>
+            <div id="fried-noodle" class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="assets/img/fried-foods/fried-noodle.jpg" alt="Fried Noodle" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
+                <h3 class="text-center">Fried Noodle <i>(Mie Goreng)</i></h3>
+                <h5 class="text-center">Rp 20.000</h5>
+                <p class="text-sm text-justify mt-2">Stir-frying wheat noodles with a mix of fresh vegetables, and proteins from fluffy eggs, tender chicken, succulent shrimp.</p>
+                
+                <br>
+                <div class="flex justify-center">
+                    <input type="number" placeholder="How many" class="rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2 ">
+                </div>
             </div>
 
-            <div class="fried-kway-teow">
-                <img src="image/fried-kway-teow.jpg" alt="Fried Kway Teow" width="500px">
-                <h3>Fried Kway Teow (<i>Kwetiau Goreng</i>) </h3>
-                <h5>Rp 20.000</h5>
-                <p>Stir-frying kway teow with a vibrant mix of fresh vegetables,and eggs, tender chicken, and succulent shrimp, </p>
-                <p>Infused with a savory blend of soy sauce, garlic, and chili paste, giving it a perfect balance of umami, slight sweetness, and a hint of spiciness.</p>
+            <div id="fried-kway-teow" class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="assets/img/fried-foods/fried-kway-teow.jpg" alt="Fried Kway Teow" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
+                <h3 class="text-center">Fried Kway Teow <i>(Kwetiau Goreng)</i></h3>
+                <h5 class="text-center">Rp 20.000</h5>
+                <p class="text-sm text-justify mt-2">Stir-frying kway teow with a vibrant mix of fresh vegetables,and eggs, tender chicken, and succulent shrimp.</p>
+            
+                <br>    
+                <div class="flex justify-center">
+                    <input type="number" placeholder="How many" class="rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2 ">
+                </div>
             </div>
 
-            <div class="fried-rice-noodle">
-                <img src="image/fried-rice-noodle.jpg" alt="Fried Rice Noodle" width="500px">
-                <h3>Fried Rice Noodle (<i>Bihun Goreng</i>)</h3>
-                <h5>Rp 20.000</h5>
-                <p>Stir-frying soft and chewy rice noodles with fresh vegetables, eggs, and a choice of protein such as tender chicken, succulent shrimp.</p>
-                <p>Cooked over high heat, the noodles absorb the rich flavors of soy sauce, garlic, and sesame oil, creating a perfect balance of savory and umami tastes. .</p>
+            <div id="fried-rice-noodle" class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="assets/img/fried-foods/fried-rice-noodle.jpg" alt="Fried Rice Noodle" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
+                <h3 class="text-center">Fried Rice Noodle <i>(Bihun Goreng)</i></h3>
+                <h5 class="text-center">Rp 20.000</h5>
+                <p class="text-sm text-justify mt-2">Stir-frying soft and chewy rice noodles with fresh vegetables, eggs, and a choice of protein such as tender chicken, succulent shrimp.</p>
+                
+                <br>
+                <div class="flex justify-center">
+                    <input type="number" placeholder="How many" class="rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2 ">
+                </div>
             </div>
 
-            <div class="fried-dumplings">
-                <img src="image/fried-dumplings.jpg" alt="Fried Dumplings" width="500px">
-                <h3>Fried Dumplings (<i>Pangsit Goreng</i>)</h3>
-                <h5>Rp 20.000 (8)</h5>
-                <p>Deep-frying dumpling that are filled with a delicious mixture of minced meatsoft and chewy chicken. </p>
-                <p>Pan-fried to perfection, these dumplings offer a satisfying contrast between the crispy outside and the tender, flavorful inside.</p>
+            <div id="fried-dumplings" class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="assets/img/fried-foods/fried-dumplings.jpg" alt="Fried Dumplings" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
+                <h3 class="text-center">Fried Dumplings <i>(Pangsit Goreng)</i></h3>
+                <h5 class="text-center">Rp 20.000 (8)</h5>
+                <p class="text-sm text-justify mt-2">Stir-frying soft and chewy rice noodles with fresh vegetables, eggs, and a choice of protein such as tender chicken, succulent shrimp.</p>
+            
+                <br>
+                <div class="flex justify-center">
+                    <input type="number" placeholder="How many" class="rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2 ">
+                </div>
             </div>
 
-            <div class="egg-foo-yong">
-                <img src="image/egg-foo-yong.jpg" alt="Egg Foo Yong" width="500px">
-                <h3>Egg Foo Yong (<i>Fuyunghai</i>)</h3>
-                <h5>Rp 30.000</h5>
-                <p>Chinese-style Omelet that are packed with a savory mix of eggs, chives, and a choice of protein such as chicken and shrimp. </p>
-                <p>Topped with a thick, sweet, and tangy tomato-based sauce that enhances its rich flavors.</p>
+            <div id="egg-foo-yong" class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="assets/img/fried-foods/egg-foo-yong.jpg" alt="Egg Foo Yong" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
+                <h3 class="text-center">Egg Foo Yong <i>(Fuyunghai)</i></h3>
+                <h5 class="text-center">Rp 30.000</h5>
+                <p class="text-sm text-justify mt-2">Chinese-style Omelet that are packed with a savory mix of eggs, chives, chicken and shrimp with sweet and sour sauce.</p>
+            
+                <br>
+                <div class="flex justify-center">
+                    <input type="number" placeholder="How many" class="rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2 ">
+                </div>
             </div>
 
-            <div class="koloke">
-                <img src="image/koloke.jpg" alt="Koloke" width="500px">
-                <h3>Koloke</h3>
-                <h5>Rp 25.000</h5>
-                <p>Deep-frying flour-covered chicken pieces and coated in a deliciously sweet and sour sauce. </p>
-                <p>The sauce made from a blend of tomato sauce, vinegar, sugar, chopped carrots and chopped pineapples for an extra hint of sweetness.</p>
-            </div>
-        </div>
-
-        <div class="non-fried-foods">
-            <div class="chinese-noodle-soup">
-                <img src="image/chinese-noodle-soup.jpg" alt="Chinese Noodle Soup" width="500px">
-                <h3>Chinese Noodle Soup (<i>Mi Kuah</i>)</h3>
-                <h5>Rp 20.000</h5>
-                <p>Boiled noodle along with a mix fresh vegetables such as caisins, chinese cabbages and protein such as tender chicken, succulent shrimp. </p>
-                <p>Served in garlic, soy, and secret recipe sauce broth, creating a deep umami taste.</p>
-            </div>
-
-            <div class="kway-teow-soup">
-                <img src="image/kway-teow-soup.jpg" alt="Kway Teow Soup" width="500px">
-                <h3>Kway Teow Soup (<i>Kwetiau Kuah</i>)</h3>
-                <h5>Rp 20.000</h5>
-                <p>Boiled silky smooth kway teow paired with vibrant medley of fresh vegetables, fluffy eggs, and tender chicken and succulent shrimp as the protein. </p>
-                <p>Served in a rich, aromatic broth infused with garlic and soy sauce, this dish offers a deep umami taste that warms the soul with every spoonful. </p>
-            </div>
-
-            <div class="rice-noodle-soup">
-                <img src="image/rice-noodle-soup.jpg" alt="Rice Noodle Soup" width="500px">
-                <h3>Rice Noodle Soup (<i>Bihun Kuah</i>)</h3>
-                <h5>Rp 20.000</h5>
-                <p>Boiled rice noodle with a mix of fresh vegetables, fluffy eggs, and protein such as tender chicken, succulent shrimp. </p>
-                <p>Served in a fragrant broth infused with garlic, ginger, and soy sauce, this comforting dish delivers a deep umami richness.</p>
-            </div>
-
-            <div class="dumplings-soup">
-                <img src="image/dumplings-soup.jpg" alt="Dumplings Soup" width="500px">
-                <h3>Dumplings Soup (<i>Bihun Kuah</i>)</h3>
-                <h5>Rp 20.000 (8)</h5>
-                <p>Boiled dumpling generously filled with a savory mixture of minced chicken meat and tender.</p>
-                <p>Cooked over high heat, the noodles absorb the rich flavors of soy sauce, garlic, and sesame oil, creating a perfect balance of savory and umami tastes.</p>
-            </div>
-
-            <div class="chicken-noodle">
-                <img src="image/chicken-noodle.jpg" alt="Chicken Noodle" width="500px">
-                <h3>Indo-Chinese Chicken Noodle (<i>Mi Ayam</i>)</h3>
-                <h5>Rp 20.000</h5>
-                <p>Indo-Chinese noodle dish featuring springy, yellow wheat noodles topped with flavorful, seasoned chopped chicken.</p>
-                <p>Served a bowl of warm, aromatic, and flavorful clear broth.</p>
+            <div id="koloke" class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="assets/img/fried-foods/koloke.jpg" alt="Koloke" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
+                <h3 class="text-center">Koloke </h3>
+                <h5 class="text-center">Rp 30.000</h5>
+                <p class="text-sm text-justify mt-2">Deep-frying flour-covered chicken pieces and coated in a deliciously sweet and sour sauce with slices of carrots, cucumber and pineaplles.</p>
+            
+                <br>
+                <div class="flex justify-center">
+                    <input type="number" placeholder="How many" class="rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2 ">
+                </div>
             </div>
         </div>
 
-        <div class="about-us">
-            <div class="desc">
-                <h1 class="title">ABOUT US</h1>
-                <p>DEPOT ACCORD is a small chinese depot located in Pujasera Hayam Wuruk, on Hayam Wuruk Street Number 1. 
-                   Using fresh ingredients and time-honored recipes, we prepared dishes that delight your your taste buds with rich flavors and authentic culinary traditions.
-                   From savory dim sum and wok-fried specialties to comforting noodle soups and flavorful rice dishes, every bite is a celebration of taste and tradition.
+        <h1 id="non-fried-foods" class="font-[750] text-[30px] ml-[10px] mt-6 ">NON-FRIED FOODS</h1>
+        <div class="grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 rounded-xl" id="menu">
+            <div id="chinese-noodle-soup" class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="assets/img/non-fried-foods/chinese-noodle-soup.jpg" alt="Chinese Noodle Soup" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
+                <h3 class="text-center">Chinese Noodle Soup <i>(Mi Kuah)</i></h3>
+                <h5 class="text-center">Rp 25.000</h5>
+                <p class="text-sm text-justify mt-2">Boiled noodle along with a mix fresh vegetables such as caisins, chinese cabbages and protein such as tender chicken, succulent shrimp.</p>
+                
+                <br>
+                <div class="flex justify-center">
+                    <input type="number" placeholder="How many" class="rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2">
+                </div>
+            </div>
+
+            <div id="kway-teow-soup" class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="assets/img/non-fried-foods/kway-teow-soup.jpg" alt="Kway Teow Soup" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
+                <h3 class="text-center">Kway Teow Soup <i>(Kwetiau Kuah)</i></h3>
+                <h5 class="text-center">Rp 25.000</h5>
+                <p class="text-sm text-justify mt-2">Boiled noodle along with a mix fresh vegetables such as caisins, chinese cabbages and protein such as tender chicken, succulent shrimp.</p>
+                
+                <br>
+                <div class="flex justify-center">
+                    <input type="number" placeholder="How many" class="rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2">
+                </div>
+            </div>
+
+            <div id="rice-noodle-soup" class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="assets/img/non-fried-foods/rice-noodle-soup.jpg" alt="Rice Noodle Soup" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
+                <h3 class="text-center">Rice Noodle Soup <i>(Bihun Kuah)</i></h3>
+                <h5 class="text-center">Rp 25.000</h5>
+                <p class="text-sm text-justify mt-2">Boiled rice noodle with a mix of fresh vegetables, fluffy eggs, and protein such as tender chicken, succulent shrimp.</p>
+                
+                <br>
+                <div class="flex justify-center">
+                    <input type="number" placeholder="How many" class="rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2">
+                </div>
+            </div>
+
+            <div id="cap-cai" class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="assets/img/non-fried-foods/cap-cai.webp" alt="Rice Noodle Soup" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
+                <h3 class="text-center">Cap Cai <i>(Cap Jay)</i></h3>
+                <h5 class="text-center">Rp 30.000</h5>
+                <p class="text-sm text-justify mt-2">Stir-fried vegetable dish that combines a variety of fresh vegetables such as carrots, cabbage, bok choy, and mushrooms.</p>
+                
+                <br>
+                <div class="flex justify-center">
+                    <input type="number" placeholder="How many" class="rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2">
+                </div>
+            </div>
+
+            <div id="dumplings-soup" class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="assets/img/non-fried-foods/dumplings-soup.jpg" alt="Dumplings Sou" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
+                <h3 class="text-center">Dumplings Soup <i>(Pangsit Kuah)</i></h3>
+                <h5 class="text-center">Rp 20.000</h5>
+                <p class="text-sm text-justify mt-2">Boiled dumplings, generously filled with a savory mixture of seasoned minced chicken, that are gently cooked in a rich, flavorful soup.</p>
+                
+                <br>
+                <div class="flex justify-center">
+                    <input type="number" placeholder="How many" class="rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2">
+                </div>
+            </div>
+
+            <div id="chicken-noodle" class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="assets/img/non-fried-foods/chicken-noodle.jpg" alt="Chicken Noodle" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
+                <h3 class="text-center">Indo-Chinese Chicken Noodle <i>(Mi Ayam)</i></h3>
+                <h5 class="text-center">Rp 20.000</h5>
+                <p class="text-sm text-justify mt-2">Indo-Chinese noodle dish featuring springy, yellow wheat noodles topped with flavorful, seasoned chopped chicken.</p>
+                
+                <br>
+                <div class="flex justify-center">
+                    <input type="number" placeholder="How many" class="rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2">
+                </div>
+            </div>
+
+        </div>
+
+        
+        <div id="about-us" class="flex rounded-xl mt-6 mb-6 justify-center">
+            <div id="desc">
+                <h1 class="font-[750] text-[30px] mt-6 mb-6">ABOUT US</h1>
+                <p>DEPOT ACCORD is a small chinese depot located in Pujasera Hayam Wuruk, on Hayam Wuruk Street Number 1.</p>
+                <p>Using fresh ingredients and time-honored recipes, we prepared dishes that delight your your taste buds with rich flavors and authentic culinary traditions.</p> 
+                <p>From savory dim sum and wok-fried specialties to comforting noodle soups and flavorful rice dishes, every bite is a celebration of taste and tradition.</p>
+                <p>
                    Established since 2013, Depot Accord has served thousands of orders and still counting to this day.
                    Despite relocating few times, Depot Accord still committed to preserving the authentic taste and quality of the food we serve to our customers.
-                </p>
+                </p>  
             </div>
+            <div id="about-us-img">
+                <img src="assets/img/img-resto.jpg" alt="Opening Image" style="border-radius: 5%;">
+            </div>        
         </div>
+
     </main>
 
-    <footer>
-        <p>&copy; Cornelius Louis Nathan 23051204085 </p>
-        <p>Platform Based Programming Mid-Term Test Project</p>
+    <footer class="bg-[#d70e0e]">
+        <p class="p-4 text-center text-red-50 font-semibold text-sm">
+            Copyright &copy; 2025 Cornelius Louis Nathan 23051204085.
+            <br>
+            Platform Based Programming Mid-Term Test Project
+        </p>
     </footer>
 </body>
 
