@@ -7,6 +7,7 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="js/main.js"></script>
     
 </head>
 
@@ -20,7 +21,7 @@
                 <li><a href="#about-us">ABOUT US</a></li>
             </ul>
         </nav>
-        <button type="submit">ORDER</button>
+        <button onclick="handleSubmit()" class="flex justify-end mt-[15px] p-[15px] rounded-3xl" ">ORDER</button>
     </header>
     <main>
         <div id="opening" class="flex items-center mb-5 rounded-xl">
@@ -36,162 +37,162 @@
 
         <h1 id="fried-foods" class="font-[750] text-[30px] ml-[10px] ">FRIED FOODS</h1>
         <div class="grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 rounded-xl" id="menu">
-            <div id="fried-rice" class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div id="fried-rice" class="food-item bg-white shadow-lg rounded-lg overflow-hidden">
                 <img src="assets/img/fried-foods/fried-rice.jpg" alt="Fried Rice" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
                 <h3 class="text-center">Fried Rice <i>(Nasi Goreng)</i></h3>
-                <h5 class="text-center">Rp 20.000</h5>
+                <h5 class="food-price text-center">Rp 20.000</h5>
                 <p class="text-sm text-justify mt-2">Stir-frying cooked rice with a combination of fresh ingredients such as eggs, and savory proteins of chicken, shrimp, or salted fish. </p>
                 
                 <br>
                 <div class="flex justify-center">
-                    <input type="number" placeholder="How many" class="rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2">
                 </div>
             </div>
 
-            <div id="fried-noodle" class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div id="fried-noodle" class="food-item bg-white shadow-lg rounded-lg overflow-hidden">
                 <img src="assets/img/fried-foods/fried-noodle.jpg" alt="Fried Noodle" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
                 <h3 class="text-center">Fried Noodle <i>(Mie Goreng)</i></h3>
-                <h5 class="text-center">Rp 20.000</h5>
+                <h5 class="food-price text-center">Rp 20.000</h5>
                 <p class="text-sm text-justify mt-2">Stir-frying wheat noodles with a mix of fresh vegetables, and proteins from fluffy eggs, tender chicken, succulent shrimp.</p>
                 
                 <br>
                 <div class="flex justify-center">
-                    <input type="number" placeholder="How many" class="rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2 ">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2 ">
                 </div>
             </div>
 
-            <div id="fried-kway-teow" class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div id="fried-kway-teow" class="food-item bg-white shadow-lg rounded-lg overflow-hidden">
                 <img src="assets/img/fried-foods/fried-kway-teow.jpg" alt="Fried Kway Teow" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
                 <h3 class="text-center">Fried Kway Teow <i>(Kwetiau Goreng)</i></h3>
-                <h5 class="text-center">Rp 20.000</h5>
+                <h5 class="food-price text-center">Rp 20.000</h5>
                 <p class="text-sm text-justify mt-2">Stir-frying kway teow with a vibrant mix of fresh vegetables,and eggs, tender chicken, and succulent shrimp.</p>
             
                 <br>    
                 <div class="flex justify-center">
-                    <input type="number" placeholder="How many" class="rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2 ">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2 ">
                 </div>
             </div>
 
-            <div id="fried-rice-noodle" class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div id="fried-rice-noodle" class="food-item bg-white shadow-lg rounded-lg overflow-hidden">
                 <img src="assets/img/fried-foods/fried-rice-noodle.jpg" alt="Fried Rice Noodle" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
                 <h3 class="text-center">Fried Rice Noodle <i>(Bihun Goreng)</i></h3>
-                <h5 class="text-center">Rp 20.000</h5>
+                <h5 class="food-price text-center">Rp 20.000</h5>
                 <p class="text-sm text-justify mt-2">Stir-frying soft and chewy rice noodles with fresh vegetables, eggs, and a choice of protein such as tender chicken, succulent shrimp.</p>
                 
                 <br>
                 <div class="flex justify-center">
-                    <input type="number" placeholder="How many" class="rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2 ">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2 ">
                 </div>
             </div>
 
-            <div id="fried-dumplings" class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div id="fried-dumplings" class="food-item bg-white shadow-lg rounded-lg overflow-hidden">
                 <img src="assets/img/fried-foods/fried-dumplings.jpg" alt="Fried Dumplings" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
                 <h3 class="text-center">Fried Dumplings <i>(Pangsit Goreng)</i></h3>
-                <h5 class="text-center">Rp 20.000 (8)</h5>
+                <h5 class="food-price text-center">Rp 20.000 (8)</h5>
                 <p class="text-sm text-justify mt-2">Stir-frying soft and chewy rice noodles with fresh vegetables, eggs, and a choice of protein such as tender chicken, succulent shrimp.</p>
             
                 <br>
                 <div class="flex justify-center">
-                    <input type="number" placeholder="How many" class="rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2 ">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2 ">
                 </div>
             </div>
 
-            <div id="egg-foo-yong" class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div id="egg-foo-yong" class="food-item bg-white shadow-lg rounded-lg overflow-hidden">
                 <img src="assets/img/fried-foods/egg-foo-yong.jpg" alt="Egg Foo Yong" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
                 <h3 class="text-center">Egg Foo Yong <i>(Fuyunghai)</i></h3>
-                <h5 class="text-center">Rp 30.000</h5>
+                <h5 class="food-price text-center">Rp 30.000</h5>
                 <p class="text-sm text-justify mt-2">Chinese-style Omelet that are packed with a savory mix of eggs, chives, chicken and shrimp with sweet and sour sauce.</p>
             
                 <br>
                 <div class="flex justify-center">
-                    <input type="number" placeholder="How many" class="rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2 ">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2 ">
                 </div>
             </div>
 
-            <div id="koloke" class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div id="koloke" class="food-item bg-white shadow-lg rounded-lg overflow-hidden">
                 <img src="assets/img/fried-foods/koloke.jpg" alt="Koloke" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
                 <h3 class="text-center">Koloke </h3>
-                <h5 class="text-center">Rp 30.000</h5>
+                <h5 class="food-price text-center">Rp 30.000</h5>
                 <p class="text-sm text-justify mt-2">Deep-frying flour-covered chicken pieces and coated in a deliciously sweet and sour sauce with slices of carrots, cucumber and pineaplles.</p>
             
                 <br>
                 <div class="flex justify-center">
-                    <input type="number" placeholder="How many" class="rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2 ">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2 ">
                 </div>
             </div>
         </div>
 
         <h1 id="non-fried-foods" class="font-[750] text-[30px] ml-[10px] mt-6 ">NON-FRIED FOODS</h1>
         <div class="grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 rounded-xl" id="menu">
-            <div id="chinese-noodle-soup" class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div id="chinese-noodle-soup" class="food-item bg-white shadow-lg rounded-lg overflow-hidden">
                 <img src="assets/img/non-fried-foods/chinese-noodle-soup.jpg" alt="Chinese Noodle Soup" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
                 <h3 class="text-center">Chinese Noodle Soup <i>(Mi Kuah)</i></h3>
-                <h5 class="text-center">Rp 25.000</h5>
+                <h5 class="food-price text-center">Rp 25.000</h5>
                 <p class="text-sm text-justify mt-2">Boiled noodle along with a mix fresh vegetables such as caisins, chinese cabbages and protein such as tender chicken, succulent shrimp.</p>
                 
                 <br>
                 <div class="flex justify-center">
-                    <input type="number" placeholder="How many" class="rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2">
                 </div>
             </div>
 
-            <div id="kway-teow-soup" class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div id="kway-teow-soup" class="food-item bg-white shadow-lg rounded-lg overflow-hidden">
                 <img src="assets/img/non-fried-foods/kway-teow-soup.jpg" alt="Kway Teow Soup" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
                 <h3 class="text-center">Kway Teow Soup <i>(Kwetiau Kuah)</i></h3>
-                <h5 class="text-center">Rp 25.000</h5>
+                <h5 class="food-price text-center">Rp 25.000</h5>
                 <p class="text-sm text-justify mt-2">Boiled noodle along with a mix fresh vegetables such as caisins, chinese cabbages and protein such as tender chicken, succulent shrimp.</p>
                 
                 <br>
                 <div class="flex justify-center">
-                    <input type="number" placeholder="How many" class="rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2">
                 </div>
             </div>
 
-            <div id="rice-noodle-soup" class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div id="rice-noodle-soup" class="food-item bg-white shadow-lg rounded-lg overflow-hidden">
                 <img src="assets/img/non-fried-foods/rice-noodle-soup.jpg" alt="Rice Noodle Soup" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
                 <h3 class="text-center">Rice Noodle Soup <i>(Bihun Kuah)</i></h3>
-                <h5 class="text-center">Rp 25.000</h5>
+                <h5 class="food-price text-center">Rp 25.000</h5>
                 <p class="text-sm text-justify mt-2">Boiled rice noodle with a mix of fresh vegetables, fluffy eggs, and protein such as tender chicken, succulent shrimp.</p>
                 
                 <br>
                 <div class="flex justify-center">
-                    <input type="number" placeholder="How many" class="rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2">
                 </div>
             </div>
 
-            <div id="cap-cai" class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div id="cap-cai" class="food-item bg-white shadow-lg rounded-lg overflow-hidden">
                 <img src="assets/img/non-fried-foods/cap-cai.webp" alt="Rice Noodle Soup" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
                 <h3 class="text-center">Cap Cai <i>(Cap Jay)</i></h3>
-                <h5 class="text-center">Rp 30.000</h5>
+                <h5 class="food-price text-center">Rp 30.000</h5>
                 <p class="text-sm text-justify mt-2">Stir-fried vegetable dish that combines a variety of fresh vegetables such as carrots, cabbage, bok choy, and mushrooms.</p>
                 
                 <br>
                 <div class="flex justify-center">
-                    <input type="number" placeholder="How many" class="rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2">
                 </div>
             </div>
 
-            <div id="dumplings-soup" class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div id="dumplings-soup" class="food-item bg-white shadow-lg rounded-lg overflow-hidden">
                 <img src="assets/img/non-fried-foods/dumplings-soup.jpg" alt="Dumplings Sou" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
                 <h3 class="text-center">Dumplings Soup <i>(Pangsit Kuah)</i></h3>
-                <h5 class="text-center">Rp 20.000</h5>
+                <h5 class="food-price text-center">Rp 20.000</h5>
                 <p class="text-sm text-justify mt-2">Boiled dumplings, generously filled with a savory mixture of seasoned minced chicken, that are gently cooked in a rich, flavorful soup.</p>
                 
                 <br>
                 <div class="flex justify-center">
-                    <input type="number" placeholder="How many" class="rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2">
                 </div>
             </div>
 
-            <div id="chicken-noodle" class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div id="chicken-noodle" class="food-item bg-white shadow-lg rounded-lg overflow-hidden">
                 <img src="assets/img/non-fried-foods/chicken-noodle.jpg" alt="Chicken Noodle" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
                 <h3 class="text-center">Indo-Chinese Chicken Noodle <i>(Mi Ayam)</i></h3>
-                <h5 class="text-center">Rp 20.000</h5>
+                <h5 class="food-price text-center">Rp 20.000</h5>
                 <p class="text-sm text-justify mt-2">Indo-Chinese noodle dish featuring springy, yellow wheat noodles topped with flavorful, seasoned chopped chicken.</p>
                 
                 <br>
                 <div class="flex justify-center">
-                    <input type="number" placeholder="How many" class="rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2">
                 </div>
             </div>
 
