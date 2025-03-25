@@ -216,12 +216,18 @@
 
 #about-us p{
     text-align: justify;
-    padding-right: 200px;
+    margin-right: 250px;
     margin-left: 20px;
     margin-bottom: 10px;
 }
 
 #about-us img{
-    width: 450px;
+    display: flex;
+    justify-content: flex-end;
+
+    width: 800px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 10px;
 }
