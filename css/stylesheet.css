@@ -39,21 +39,36 @@
     font-weight: 600;
     font-style: normal;
 }
+@media screen and (max-width: 1080px) {
+    #navbar img{
+        max-width: 50px;
+    }
+    #navbar ul{
+        text-overflow: ellipsis;
+        overflow: hidden;
+        font-size: xx-small;
 
-html{
-    scroll-behavior: smooth;
+        padding: 8px;
+        margin-left: 1px;
+    }
+    
+    #navbar button{
+        font-size: xx-small;
+        padding: 8px;
+    }
 }
-
+  
 * {
+    scroll-behavior: smooth;
     font-family: "Poppins";
 }
 
 #navbar{
-    font-weight: 100;
-    font-size:medium;
+    font-weight: 600;
+    font-size:small;
+    margin-bottom: 5px;
     background-color: whitesmoke;
     border-bottom: 4px solid rgb(198, 11, 11);
-    margin-bottom: 5px;
 
     position: sticky;
     top: 0;
@@ -65,7 +80,7 @@ html{
 }
 
 #navbar li a{
-    padding: 15px;
+    padding: 12px;
     margin-left: 10px;
     border-radius: 100px;
     transition: all 0.3s ease-in-out;
@@ -77,12 +92,13 @@ html{
 }
 
 #navbar button{
-    background-color: rgb(215, 14, 14);
-    color: whitesmoke;
     border: none;
     margin-left: auto;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
+
+    background-color: rgb(215, 14, 14);
+    color: whitesmoke;
 }
 
 #navbar button:hover{
@@ -94,10 +110,11 @@ html{
 }
 
 #opening{
-    color: whitesmoke;
-    background-color:rgb(215, 14, 14);
     margin-left: 8px;
     margin-right: 8px;
+
+    color: whitesmoke;
+    background-color:rgb(215, 14, 14);
 }
 
 #opening #title {
@@ -107,9 +124,9 @@ html{
 }
 
 #opening p{
-    margin-left: 20px;
     text-align: justify;
     padding-right: 100px;
+    margin-left: 20px;
 }
 
 #opening #opening-img {
@@ -119,13 +136,14 @@ html{
 }
 
 #menu{
-    background-color:rgb(215, 14, 14);
     display: grid;
     gap: 15px;
     padding: 20px;
 
     margin-left: 8px;
     margin-right: 8px;
+
+    background-color:rgb(215, 14, 14);
 }
 
 #menu img{
@@ -138,8 +156,9 @@ html{
 
 #menu h3{
     margin-top: 10px;
-    color: rgb(215, 14, 14);
     font-weight: 700;
+
+    color: rgb(215, 14, 14);
 }
 
 #menu i{
@@ -159,10 +178,11 @@ html{
 
 #menu input{
     font-size: 14px;
-    border: 2px solid rgb(215, 14, 14);
     outline: none;
     transition: all 0.3s ease-in-out;
+
     background-color: #fff;
+    border: 2px solid rgb(215, 14, 14);
 }
 #menu input[type="number"]:focus {
     border-color:rgb(215, 14, 14);
@@ -174,8 +194,8 @@ html{
     border-color:rgb(0, 0, 0);
 }
 #menu input[type="number"]:not(:placeholder-shown) {
-    border-color: rgb(76, 175, 80); 
     border-width: 3px;
+    border-color: rgb(76, 175, 80); 
 }
 #menu input[type="number"]::-webkit-inner-spin-button,
 #menu input[type="number"]::-webkit-outer-spin-button {
@@ -183,10 +203,11 @@ html{
 }
 
 #about-us{
-    color: whitesmoke;
-    background-color:rgb(215, 14, 14);
     margin-left: 8px;
     margin-right: 8px;
+
+    color: whitesmoke;
+    background-color:rgb(215, 14, 14);
 }
 
 #about-us h1{
@@ -194,13 +215,13 @@ html{
 }
 
 #about-us p{
-    margin-left: 20px;
     text-align: justify;
-    padding-right: 100px;
+    padding-right: 200px;
+    margin-left: 20px;
     margin-bottom: 10px;
 }
 
 #about-us img{
-    max-width: 450px;
+    width: 450px;
     padding: 10px;
 }
