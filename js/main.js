@@ -27,6 +27,11 @@ function formatCurrency(amount) {
 }
 
 function printTotal(formattedTotal) {
-    alert(`Your Total is ${formattedTotal} \nPlease wait for a moment`);
+    const checkOrder = parseInt(formattedTotal.replace(/[^\d]/g, '')) || 0;
+    
+    if(checkOrder === 0) {
+        alert("You have not ordered any menu yet");
+    } else {
+        alert(`Your Total is ${formattedTotal}\nPlease wait for a moment`);
+    }
 }
-  

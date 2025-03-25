@@ -8,27 +8,27 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/stylesheet.css">
     <script src="js/main.js"></script>
-    
 </head>
 
 <body>
-    <header id="navbar" class="flex items-center justify-start p-4 shadow-lg rounded-b-lg">
-        <img src="assets/img/logo.png" alt="Logo" style="width: 150px;">
+    <header id="navbar" class="flex items-center justify-start p-2 pl-4 shadow-lg rounded-b-lg">
+        <img src="assets/img/logo.png" alt="Logo" style="width: 100px;">
         <nav class="flex items-center">
             <ul class="flex mt-4">
                 <li><a href="#fried-foods">FRIED FOODS</a></li>
                 <li><a href="#non-fried-foods">NON FRIED FOODS</a></li>
+                <li><a href="#drinks">DRINKS</a></li>
                 <li><a href="#about-us">ABOUT US</a></li>
             </ul>
         </nav>
-        <button onclick="handleSubmit()" class="flex justify-end mt-[15px] p-[15px] rounded-3xl" ">ORDER</button>
+        <button onclick="handleSubmit()" class="flex justify-end mt-[15px] p-[12px] rounded-3xl">ORDER</button>
     </header>
     <main>
         <div id="opening" class="flex items-center mb-5 rounded-xl">
             <div class="desc">
                 <h1 id="title">DEPOT ACCORD</h1>
-                <p>If you are looking for authentic Chinese food in town and craving a homemade dish to satisfy your taste buds, <b>DEPOT ACCORD</b> is the perfect answer. </p> <br>
-                <p>Offering a variety of traditional Chinese dishes made with fresh ingredients and time-honored recipes, every bite brings a taste of home-cooked goodness.</p>
+                <p>If you are looking for authentic <i><b>Chinese food</b></i> in town and craving a homemade dish to satisfy your taste buds, <b>DEPOT ACCORD</b> is the perfect answer. </p> <br>
+                <p>Offering a variety of <b>traditional Chinese dishes</b> made with <a class="underline decoration-2">fresh ingredients</a> and <a class="underline decoration-2">time-honored recipes</a>, every bite brings a taste of home-cooked goodness.</p>
             </div>
             <div id="opening-img">
                 <img src="assets/img/img-opening.jpg" alt="Opening Image" style="border-radius: 5%;">
@@ -37,7 +37,7 @@
 
         <h1 id="fried-foods" class="font-[750] text-[30px] ml-[10px] ">FRIED FOODS</h1>
         <div class="grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 rounded-xl" id="menu">
-            <div id="fried-rice" class="food-item bg-white shadow-lg rounded-lg overflow-hidden">
+            <div id="fried-rice" class="food-item  shadow-lg rounded-lg overflow-hidden bg-white">
                 <img src="assets/img/fried-foods/fried-rice.jpg" alt="Fried Rice" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
                 <h3 class="text-center">Fried Rice <i>(Nasi Goreng)</i></h3>
                 <h5 class="food-price text-center">Rp 20.000</h5>
@@ -45,11 +45,11 @@
                 
                 <br>
                 <div class="flex justify-center">
-                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 mb-3 mt-2 text-lg border-2">
                 </div>
             </div>
 
-            <div id="fried-noodle" class="food-item bg-white shadow-lg rounded-lg overflow-hidden">
+            <div id="fried-noodle" class="food-item shadow-lg rounded-lg overflow-hidden bg-white">
                 <img src="assets/img/fried-foods/fried-noodle.jpg" alt="Fried Noodle" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
                 <h3 class="text-center">Fried Noodle <i>(Mie Goreng)</i></h3>
                 <h5 class="food-price text-center">Rp 20.000</h5>
@@ -57,11 +57,11 @@
                 
                 <br>
                 <div class="flex justify-center">
-                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2 ">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 mb-3 mt-2 text-lg border-2">
                 </div>
             </div>
 
-            <div id="fried-kway-teow" class="food-item bg-white shadow-lg rounded-lg overflow-hidden">
+            <div id="fried-kway-teow" class="food-item shadow-lg rounded-lg overflow-hidden bg-white">
                 <img src="assets/img/fried-foods/fried-kway-teow.jpg" alt="Fried Kway Teow" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
                 <h3 class="text-center">Fried Kway Teow <i>(Kwetiau Goreng)</i></h3>
                 <h5 class="food-price text-center">Rp 20.000</h5>
@@ -69,11 +69,11 @@
             
                 <br>    
                 <div class="flex justify-center">
-                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2 ">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 mb-3 mt-2 text-lg border-2">
                 </div>
             </div>
 
-            <div id="fried-rice-noodle" class="food-item bg-white shadow-lg rounded-lg overflow-hidden">
+            <div id="fried-rice-noodle" class="food-item shadow-lg rounded-lg overflow-hidden bg-white">
                 <img src="assets/img/fried-foods/fried-rice-noodle.jpg" alt="Fried Rice Noodle" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
                 <h3 class="text-center">Fried Rice Noodle <i>(Bihun Goreng)</i></h3>
                 <h5 class="food-price text-center">Rp 20.000</h5>
@@ -81,11 +81,11 @@
                 
                 <br>
                 <div class="flex justify-center">
-                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2 ">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 mb-3 mt-2 text-lg border-2">
                 </div>
             </div>
 
-            <div id="fried-dumplings" class="food-item bg-white shadow-lg rounded-lg overflow-hidden">
+            <div id="fried-dumplings" class="food-item shadow-lg rounded-lg overflow-hidden bg-white">
                 <img src="assets/img/fried-foods/fried-dumplings.jpg" alt="Fried Dumplings" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
                 <h3 class="text-center">Fried Dumplings <i>(Pangsit Goreng)</i></h3>
                 <h5 class="food-price text-center">Rp 20.000 (8)</h5>
@@ -93,11 +93,11 @@
             
                 <br>
                 <div class="flex justify-center">
-                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2 ">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 mb-3 mt-2 text-lg border-2">
                 </div>
             </div>
 
-            <div id="egg-foo-yong" class="food-item bg-white shadow-lg rounded-lg overflow-hidden">
+            <div id="egg-foo-yong" class="food-item shadow-lg rounded-lg overflow-hidden bg-white">
                 <img src="assets/img/fried-foods/egg-foo-yong.jpg" alt="Egg Foo Yong" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
                 <h3 class="text-center">Egg Foo Yong <i>(Fuyunghai)</i></h3>
                 <h5 class="food-price text-center">Rp 30.000</h5>
@@ -105,11 +105,11 @@
             
                 <br>
                 <div class="flex justify-center">
-                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2 ">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 mb-3 mt-2 text-lg border-2">
                 </div>
             </div>
 
-            <div id="koloke" class="food-item bg-white shadow-lg rounded-lg overflow-hidden">
+            <div id="koloke" class="food-item shadow-lg rounded-lg overflow-hidden bg-white">
                 <img src="assets/img/fried-foods/koloke.jpg" alt="Koloke" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
                 <h3 class="text-center">Koloke </h3>
                 <h5 class="food-price text-center">Rp 30.000</h5>
@@ -117,14 +117,14 @@
             
                 <br>
                 <div class="flex justify-center">
-                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2 ">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 mb-3 mt-2 text-lg border-2">
                 </div>
             </div>
         </div>
 
-        <h1 id="non-fried-foods" class="font-[750] text-[30px] ml-[10px] mt-6 ">NON-FRIED FOODS</h1>
+        <h1 id="non-fried-foods" class="font-[750] text-[30px] ml-[10px] mt-6">NON-FRIED FOODS</h1>
         <div class="grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 rounded-xl" id="menu">
-            <div id="chinese-noodle-soup" class="food-item bg-white shadow-lg rounded-lg overflow-hidden">
+            <div id="chinese-noodle-soup" class="food-item shadow-lg rounded-lg overflow-hidden bg-white">
                 <img src="assets/img/non-fried-foods/chinese-noodle-soup.jpg" alt="Chinese Noodle Soup" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
                 <h3 class="text-center">Chinese Noodle Soup <i>(Mi Kuah)</i></h3>
                 <h5 class="food-price text-center">Rp 25.000</h5>
@@ -132,11 +132,11 @@
                 
                 <br>
                 <div class="flex justify-center">
-                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 mb-3 mt-2 text-lg border-2">
                 </div>
             </div>
 
-            <div id="kway-teow-soup" class="food-item bg-white shadow-lg rounded-lg overflow-hidden">
+            <div id="kway-teow-soup" class="food-item shadow-lg rounded-lg overflow-hidden bg-white">
                 <img src="assets/img/non-fried-foods/kway-teow-soup.jpg" alt="Kway Teow Soup" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
                 <h3 class="text-center">Kway Teow Soup <i>(Kwetiau Kuah)</i></h3>
                 <h5 class="food-price text-center">Rp 25.000</h5>
@@ -144,11 +144,11 @@
                 
                 <br>
                 <div class="flex justify-center">
-                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 mb-3 mt-2 text-lg border-2">
                 </div>
             </div>
 
-            <div id="rice-noodle-soup" class="food-item bg-white shadow-lg rounded-lg overflow-hidden">
+            <div id="rice-noodle-soup" class="food-item shadow-lg rounded-lg overflow-hidden bg-white">
                 <img src="assets/img/non-fried-foods/rice-noodle-soup.jpg" alt="Rice Noodle Soup" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
                 <h3 class="text-center">Rice Noodle Soup <i>(Bihun Kuah)</i></h3>
                 <h5 class="food-price text-center">Rp 25.000</h5>
@@ -156,11 +156,11 @@
                 
                 <br>
                 <div class="flex justify-center">
-                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 mb-3 mt-2 text-lg border-2">
                 </div>
             </div>
 
-            <div id="cap-cai" class="food-item bg-white shadow-lg rounded-lg overflow-hidden">
+            <div id="cap-cai" class="food-item shadow-lg rounded-lg overflow-hidden bg-white">
                 <img src="assets/img/non-fried-foods/cap-cai.webp" alt="Rice Noodle Soup" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
                 <h3 class="text-center">Cap Cai <i>(Cap Jay)</i></h3>
                 <h5 class="food-price text-center">Rp 30.000</h5>
@@ -168,11 +168,11 @@
                 
                 <br>
                 <div class="flex justify-center">
-                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 mb-3 mt-2 text-lg border-2">
                 </div>
             </div>
 
-            <div id="dumplings-soup" class="food-item bg-white shadow-lg rounded-lg overflow-hidden">
+            <div id="dumplings-soup" class="food-item shadow-lg rounded-lg overflow-hidden bg-white">
                 <img src="assets/img/non-fried-foods/dumplings-soup.jpg" alt="Dumplings Sou" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
                 <h3 class="text-center">Dumplings Soup <i>(Pangsit Kuah)</i></h3>
                 <h5 class="food-price text-center">Rp 20.000</h5>
@@ -180,11 +180,11 @@
                 
                 <br>
                 <div class="flex justify-center">
-                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 mb-3 mt-2 text-lg border-2">
                 </div>
             </div>
 
-            <div id="chicken-noodle" class="food-item bg-white shadow-lg rounded-lg overflow-hidden">
+            <div id="chicken-noodle" class="food-item shadow-lg rounded-lg overflow-hidden bg-white">
                 <img src="assets/img/non-fried-foods/chicken-noodle.jpg" alt="Chicken Noodle" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
                 <h3 class="text-center">Indo-Chinese Chicken Noodle <i>(Mi Ayam)</i></h3>
                 <h5 class="food-price text-center">Rp 20.000</h5>
@@ -192,22 +192,70 @@
                 
                 <br>
                 <div class="flex justify-center">
-                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 text-lg border-2 mb-3 mt-2">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 mb-3 mt-2 text-lg border-2">
+                </div>
+            </div>
+        </div>
+
+        <h1 id="drinks" class="font-[750] text-[30px] text-blue-500 ml-[10px] mt-6 ">DRINKS</h1>
+        <div class="grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 rounded-xl" id="menu">
+            <div id="mineral water" class="food-item shadow-lg rounded-lg overflow-hidden bg-white">
+                <img src="assets/img/drinks/mineral-water.webp" alt="Mineral Water" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
+                <h3 class="text-center">Mineral Water <i>(Air Mineral)</i></h3>
+                <h5 class="food-price text-center">Rp 4.000</h5>
+                <p class="text-sm text-justify mt-2">Pure refreshing water sourced from natural springs, enriched with essential minerals such as calcium, magnesium, and potassium.</p>
+                
+                <br>
+                <div class="flex justify-center">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 mb-3 mt-2 text-lg border-2">
                 </div>
             </div>
 
+            <div id="tea" class="food-item shadow-lg rounded-lg overflow-hidden bg-white">
+                <img src="assets/img/drinks/tea.webp" alt="Tea" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
+                <h3 class="text-center">Tea <i>(Teh)</i></h3>
+                <h5 class="food-price text-center">Rp 4.000</h5>
+                <p class="text-sm text-justify mt-2">Made from carefully selected tea leaves, offering a delicate balance of aroma and flavor. Can be served hot or cold.</p>
+                
+                <br>
+                <div class="flex justify-center">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 mb-3 mt-2 text-lg border-2">
+                </div>
+            </div>
+
+            <div id="iced orange" class="food-item shadow-lg rounded-lg overflow-hidden bg-white">
+                <img src="assets/img/drinks/orange.webp" alt="Ice Orange" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
+                <h3 class="text-center">Iced Orange <i>(Es Jeruk)</i></h3>
+                <h5 class="food-price text-center">Rp 5.000</h5>
+                <p class="text-sm text-justify mt-2">Refreshing and invigorating Indonesian citrus drink made from freshly squeezed oranges, served over ice for a cool and zesty experience.</p>
+                
+                <br>
+                <div class="flex justify-center">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 mb-3 mt-2 text-lg border-2">
+                </div>
+            </div>
+
+            <div id="coconut-water" class="food-item shadow-lg rounded-lg overflow-hidden bg-white">
+                <img src="assets/img/drinks/coconut-water.webp" alt="Coconut Water" class="grid h-48 object-cover mx-auto border-4 border-stone-800">
+                <h3 class="text-center">Coconut Water <i>(Es Degan)</i></h3>
+                <h5 class="food-price text-center">Rp 12.000</h5>
+                <p class="text-sm text-justify mt-2">Refreshing coconut drink made from young coconut water and tender coconut flesh, served over ice for a naturally sweet and hydrating experience.</p>
+                
+                <br>
+                <div class="flex justify-center">
+                    <input type="number" placeholder="How many" class="order-input rounded-xl w-32 px-4 py-1 mb-3 mt-2 text-lg border-2">
+                </div>
+            </div>
         </div>
 
-        
-        <div id="about-us" class="flex rounded-xl mt-6 mb-6 justify-center">
+        <div id="about-us" class="flex items-center rounded-xl mt-6 mb-6 justify-center">
             <div id="desc">
                 <h1 class="font-[750] text-[30px] mt-6 mb-6">ABOUT US</h1>
-                <p>DEPOT ACCORD is a small chinese depot located in Pujasera Hayam Wuruk, on Hayam Wuruk Street Number 1.</p>
-                <p>Using fresh ingredients and time-honored recipes, we prepared dishes that delight your your taste buds with rich flavors and authentic culinary traditions.</p> 
-                <p>From savory dim sum and wok-fried specialties to comforting noodle soups and flavorful rice dishes, every bite is a celebration of taste and tradition.</p>
+                <p><b>DEPOT ACCORD</b> is a small chinese depot located in <a class="underline decoration-2">Pujasera Hayam Wuruk</a>, on Hayam Wuruk Street Number 1.</p>
+                <p>From savory <a class="underline decoration-2">dim sum</a> and <a class="underline decoration-2">wok-fried specialties</a> to comforting noodle soups and flavorful rice dishes, every bite is a <b>Celebration of Taste and Tradition.</b></p>
                 <p>
-                   Established since 2013, Depot Accord has served thousands of orders and still counting to this day.
-                   Despite relocating few times, Depot Accord still committed to preserving the authentic taste and quality of the food we serve to our customers.
+                   Established <b>Since 2013</b>, Depot Accord has <a class="underline decoration-2">served thousands of orders</a> and still <b>Counting to This Day.</b>
+                   Despite relocating few times, Depot Accord still <b>Committed</b> to preserving the authentic taste and quality of the food we serve to our customers.
                 </p>  
             </div>
             <div id="about-us-img">
@@ -218,7 +266,7 @@
     </main>
 
     <footer class="bg-[#d70e0e]">
-        <p class="p-4 text-center text-red-50 font-semibold text-sm">
+        <p class="p-4 text-center font-semibold text-sm text-red-50">
             Copyright &copy; 2025 Cornelius Louis Nathan 23051204085.
             <br>
             Platform Based Programming Mid-Term Test Project
