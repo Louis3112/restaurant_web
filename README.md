@@ -19,18 +19,18 @@ The foods are categorized in 2 section:
     - Egg Foo Yong___________________ *(Fuyunghai)*
     - Koloke_________________________ *(Koloke)*
   2. Non Fried Foods
-    - Chinese Noodle_________________ *(Mie Kuah)*
-    - Kway Teow Soup_________________ *(Kwetiau Kuah)*
-    - Rice Noodle Soup_______________ *(Bihun Kuah)*
-    - Cap Cai________________________ *(Cap Jay)*
-    - Fried Dumplings Soup___________ *(Pangsit Kuah)*
-    - Indo-Chinese Chicken Noodle____ *(Mie Ayam)*
+    - Chinese Noodle_______________ *(Mie Kuah)*
+    - Kway Teow Soup_______________ *(Kwetiau Kuah)*
+    - Rice Noodle Soup_____________ *(Bihun Kuah)*
+    - Cap Cai______________________ *(Cap Jay)*
+    - Fried Dumplings Soup_________ *(Pangsit Kuah)*
+    - Indo-Chinese Chicken Noodle__ *(Mie Ayam)*
 
 and Drinks:
-    - Mineral Water___________________ *(Air Putih)*
-    - Tea_____________________________ *(Teh)*
-    - Iced Orange_____________________ *(Es Jeruk)*
-    - Coconut Water___________________ *(Es Degan)*
+    - Mineral Water________________ *(Air Putih)*
+    - Tea__________________________ *(Teh)*
+    - Iced Orange__________________ *(Es Jeruk)*
+    - Coconut Water________________ *(Es Degan)*
 
 The user can input the number of foods and items they want to buy, and a JavaScript function will calculate the total price for the food.
 There is also a transition whether you input the number and click order on the top right of the website.
