@@ -11,26 +11,26 @@ Depot Accord is the reason i can grow up, go to school, and pursue my educationa
 The website page provide a list of foods that are being sold in Depot Accord,
 The foods are categorized in 2 section:
   1. Fried Foods
-    - Fried Rice_________________ *(Nasi Goreng)*
-    - Fried Noodle_______________ *(Mie Goreng)*
-    - Fried Kway Teow____________ *(Kwetiau Goreng)*
-    - Fried Rice Noodle__________ *(Bihun Goreng)*
-    - Fried Dumplings____________ *(Pangsit Goreng)*
-    - Egg Foo Yong_______________ *(Fuyunghai)*
-    - Koloke_____________________ *(Koloke)*
+    - Fried Rice
+    - Fried Noodle
+    - Fried Kway Teow
+    - Fried Rice Noodle
+    - Fried Dumplings
+    - Egg Foo Yong
+    - Koloke
   2. Non Fried Foods
-    - Chinese Noodle_____________ *(Mie Kuah)*
-    - Kway Teow Soup_____________ *(Kwetiau Kuah)*
-    - Rice Noodle Soup___________ *(Bihun Kuah)*
-    - Cap Cai____________________ *(Cap Jay)*
-    - Fried Dumplings Soup_______ *(Pangsit Kuah)*
-    - Indo-Chinese Chicken Noodle *(Mie Ayam)*
+    - Chinese Noodle
+    - Kway Teow Soup
+    - Rice Noodle Soup
+    - Cap Cai
+    - Fried Dumplings Soup
+    - Indo-Chinese Chicken Noodle 
 
 and Drinks:
-    - Mineral Water______________ *(Air Putih)*
-    - Tea________________________ *(Teh)*
-    - Iced Orange________________ *(Es Jeruk)*
-    - Coconut Water______________ *(Es Degan)*
+    - Mineral Water
+    - Tea
+    - Iced Orange
+    - Coconut Water
 
 The user can input the number of foods and items they want to buy, and a JavaScript function will calculate the total price for the food.
 There is also a transition whether you input the number and click order on the top right of the website.
