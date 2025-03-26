@@ -20,10 +20,10 @@ The foods and drinks are categorized in 3 section:
      - Koloke____________________________ *(Koloke)*
     
   2. Non Fried Foods
-     - Chinese Noodle___________________ *(Mie Kuah)*
-     - Kway Teow Soup________________ *(Kwetiau Kuah)*
-     - Rice Noodle Soup______________ *(Bihun Kuah)*
-     - Cap Cai_______________________ *(Cap Jay)*
+     - Chinese Noodle__________________ *(Mie Kuah)*
+     - Kway Teow Soup_________________ *(Kwetiau Kuah)*
+     - Rice Noodle Soup________________ *(Bihun Kuah)*
+     - Cap Cai__________________________ *(Cap Jay)*
      - Fried Dumplings Soup___________ *(Pangsit Kuah)*
      - Indo-Chinese Chicken Noodle___ *(Mie Ayam)*
 
