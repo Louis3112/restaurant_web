@@ -12,25 +12,25 @@ The website page provide a list of foods that are being sold in Depot Accord,
 The foods are categorized in 2 section:
   1. Fried Foods
     - Fried Rice_____________________ *(Nasi Goreng)*
-    - Fried Noodle___________________ *(Mie Goreng)*
-    - Fried Kway Teow________________ *(Kwetiau Goreng)*
-    - Fried Rice Noodle______________ *(Bihun Goreng)*
-    - Fried Dumplings________________ *(Pangsit Goreng)*
-    - Egg Foo Yong___________________ *(Fuyunghai)*
-    - Koloke_________________________ *(Koloke)*
+    - Fried Noodle_______________ *(Mie Goreng)*
+    - Fried Kway Teow____________ *(Kwetiau Goreng)*
+    - Fried Rice Noodle__________ *(Bihun Goreng)*
+    - Fried Dumplings____________ *(Pangsit Goreng)*
+    - Egg Foo Yong_______________ *(Fuyunghai)*
+    - Koloke_____________________ *(Koloke)*
   2. Non Fried Foods
-    - Chinese Noodle_______________ *(Mie Kuah)*
-    - Kway Teow Soup_______________ *(Kwetiau Kuah)*
-    - Rice Noodle Soup_____________ *(Bihun Kuah)*
-    - Cap Cai______________________ *(Cap Jay)*
-    - Fried Dumplings Soup_________ *(Pangsit Kuah)*
-    - Indo-Chinese Chicken Noodle__ *(Mie Ayam)*
+    - Chinese Noodle_____________ *(Mie Kuah)*
+    - Kway Teow Soup_____________ *(Kwetiau Kuah)*
+    - Rice Noodle Soup___________ *(Bihun Kuah)*
+    - Cap Cai____________________ *(Cap Jay)*
+    - Fried Dumplings Soup_______ *(Pangsit Kuah)*
+    - Indo-Chinese Chicken Noodle *(Mie Ayam)*
 
 and Drinks:
-    - Mineral Water________________ *(Air Putih)*
-    - Tea__________________________ *(Teh)*
-    - Iced Orange__________________ *(Es Jeruk)*
-    - Coconut Water________________ *(Es Degan)*
+    - Mineral Water______________ *(Air Putih)*
+    - Tea________________________ *(Teh)*
+    - Iced Orange________________ *(Es Jeruk)*
+    - Coconut Water______________ *(Es Degan)*
 
 The user can input the number of foods and items they want to buy, and a JavaScript function will calculate the total price for the food.
 There is also a transition whether you input the number and click order on the top right of the website.
