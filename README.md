@@ -29,7 +29,7 @@ The foods and drinks are categorized in 3 section:
 
   3. Drinks
      - Mineral Water____________________ *(Air Putih)*
-     - Tea____________________________ *(Teh)*
+     - Tea______________________________ *(Teh)*
      - Iced Orange_____________________ *(Es Jeruk)*
      - Coconut Water__________________ *(Es Degan)*
 
