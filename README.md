@@ -9,29 +9,29 @@ The project is a simple restaurant web called Depot Accord. Depot Accord is insp
 Depot Accord is the reason i can grow up, go to school, and pursue my educational goals. So that's why i *'immortalize'* them in this project.
 
 The website page provide a list of foods that are being sold in Depot Accord,
-The foods are categorized in 2 section:
+The foods and drinks are categorized in 3 section:
   1. Fried Foods
-     - Fried Rice____________________ *(Nasi Goreng)*
-     - Fried Noodle________________ *(Mie Goreng)*
-     - Fried Kway Teow____________ *(Kwetiau Goreng)*
-     - Fried Rice Noodle___________ *(Bihun Goreng)*
-     - Fried Dumplings____________ *(Pangsit Goreng)*
-     - Egg Foo Yong______________ *(Fuyunghai)*
-     - Koloke_____________________ *(Koloke)*
+     - Fried Rice_______________________ *(Nasi Goreng)*
+     - Fried Noodle___________________ *(Mie Goreng)*
+     - Fried Kway Teow_________________ *(Kwetiau Goreng)*
+     - Fried Rice Noodle_______________ *(Bihun Goreng)*
+     - Fried Dumplings__________________ *(Pangsit Goreng)*
+     - Egg Foo Yong____________________ *(Fuyunghai)*
+     - Koloke____________________________ *(Koloke)*
     
   2. Non Fried Foods
-     - Chinese Noodle______________ *(Mie Kuah)*
-     - Kway Teow Soup_____________ *(Kwetiau Kuah)*
-     - Rice Noodle Soup___________ *(Bihun Kuah)*
-     - Cap Cai____________________ *(Cap Jay)*
-     - Fried Dumplings Soup_______ *(Pangsit Kuah)*
-     - Indo-Chinese Chicken Noodle_ *(Mie Ayam)*
+     - Chinese Noodle___________________ *(Mie Kuah)*
+     - Kway Teow Soup________________ *(Kwetiau Kuah)*
+     - Rice Noodle Soup______________ *(Bihun Kuah)*
+     - Cap Cai_______________________ *(Cap Jay)*
+     - Fried Dumplings Soup___________ *(Pangsit Kuah)*
+     - Indo-Chinese Chicken Noodle___ *(Mie Ayam)*
 
   3. Drinks
-     - Mineral Water____________ *(Air Putih)*
-     - Tea____________________ *(Teh)*
-     - Iced Orange_____________ *(Es Jeruk)*
-     - Coconut Water____________ *(Es Degan)*
+     - Mineral Water__________________ *(Air Putih)*
+     - Tea__________________________ *(Teh)*
+     - Iced Orange___________________ *(Es Jeruk)*
+     - Coconut Water________________ *(Es Degan)*
 
 The user can input the number of foods and items they want to buy, and a JavaScript function will calculate the total price for the food.
 There is also a transition whether you input the number and click order on the top right of the website.
