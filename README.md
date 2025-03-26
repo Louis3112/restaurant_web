@@ -11,7 +11,7 @@ Depot Accord is the reason i can grow up, go to school, and pursue my educationa
 The website page provide a list of foods that are being sold in Depot Accord,
 The foods are categorized in 2 section:
   1. Fried Foods
-    - Fried Rice_____________________ *(Nasi Goreng)*
+    - Fried Rice_________________ *(Nasi Goreng)*
     - Fried Noodle_______________ *(Mie Goreng)*
     - Fried Kway Teow____________ *(Kwetiau Goreng)*
     - Fried Rice Noodle__________ *(Bihun Goreng)*
